@@ -13,8 +13,7 @@ module.exports = {
         yoopg
         .click('(//div[text()="See all"])[1]')
         .waitForElementVisible('@tl', 10000)
-        yoopg.navigate()
-    yoopg 
+        .navigate() 
         .click('(//div[text()="See all"])[2]')
         .waitForElementVisible('@og', 10000)
         .navigate()
