@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="Amazon"
+    errors="0" failures="1" hostname="" id="" package="Amazon" skipped="0"
+    tests="1" time="22.00" timestamp="">
+  
+    <testcase name="search for item" classname="Amazon" time="22.00" assertions="1">  <failure message="Timed out while waiting for element &lt;#res&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;found&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at Object.search for item (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\Amazon.js:11:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    <failure message="    at Object.search for item (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\Amazon.js:11:10)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
