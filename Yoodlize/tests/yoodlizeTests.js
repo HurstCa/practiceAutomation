@@ -103,15 +103,15 @@ module.exports = {
         .waitForElementVisible('@mi', 10000)
         .navigate()
     },
-    // 'Search for an Item': browser => {
-    //     browser
-    //     .setValue('.form-control', ['Rubix Cube', browser.Keys.ENTER])
-    // .useXpath()
-    //     .waitForElementVisible('//div[text()="keyword: "and"Rubix Cube"]', 10000)
-    //     .waitForElementVisible('(//div[text()="Rubix Cube"])[2]', 10000)
-    //     .waitForElementVisible('//span[text()="$22"]', 10000)
-    // .useCss()
-    //     .waitForElementVisible('[value="Rubix Cube"]')
-    //     .waitForElementVisible('[style="height: 100%;"]')
-    // }
+    'Search for an Item': browser => {
+        browser
+        .setValue('.form-control', ['Rubix Cube', browser.Keys.ENTER])
+    .useXpath()
+        .waitForElementVisible('//div[text()="keyword: "and"Rubix Cube"]', 10000)
+        .waitForElementVisible('(//div[text()="Rubix Cube"])[2]', 10000)
+        .waitForElementVisible('//span[text()="$22"]', 10000)
+    .useCss()
+        .waitForElementVisible('[value="Rubix Cube"]')
+        .waitForElementVisible('[style="height: 100%;"]')
+    }
 }

@@ -5,30 +5,30 @@
 
   <testsuite name="weatherTests"
     errors="0" failures="0" hostname="" id="" package="weatherTests" skipped="0"
-    tests="4" time="5.569" timestamp="">
+    tests="4" time="3.940" timestamp="">
   
-    <testcase name="Search for city" classname="weatherTests" time="3.041" assertions="2">
+    <testcase name="Search for city" classname="weatherTests" time="1.369" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Search for zip" classname="weatherTests" time="0.8430" assertions="2">
+    <testcase name="Search for zip" classname="weatherTests" time="0.8710" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Search for blank" classname="weatherTests" time="0.8590" assertions="2">
+    <testcase name="Search for blank" classname="weatherTests" time="0.8330" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Search for bad zip" classname="weatherTests" time="0.8260" assertions="2">
+    <testcase name="Search for bad zip" classname="weatherTests" time="0.8670" assertions="2">
 
     
 

@@ -1,3 +1,10 @@
+var search = (browser, value, selector, city) => {
+    browser
+    .setValue('@searchBar', value)
+    .click ('.enter-location__submit')
+    .waitForElementPresent(selector)
+    .expect.element(selector).text.to.equal(city)
+}
 var weatherPage
 module.exports = {
     beforeEach: browser => {
@@ -5,28 +12,16 @@ module.exports = {
         weatherPage.navigate()
     },
     'Search for city': browser => {
-        weatherPage
-            .setValue('@searchBar', ['San Diego', browser.Keys.ENTER])
-            .waitForElementPresent('@resultCity')
-            .expect.element('@resultCity').text.to.equal('San Diego')
+       search(weatherPage, 'San Diego', '@resultCity', 'San Diego')
     },
     'Search for zip': browser => {
-        weatherPage
-            .setValue('@searchBar', ['95820', browser.Keys.ENTER])
-            .waitForElementPresent('@resultCity')
-            .expect.element('@resultCity').text.to.equal('Sacramento')
+        search(weatherPage, '95820', '@resultCity', 'Sacramento')
     },
     'Search for blank': browser => {
-        weatherPage
-            .setValue('@searchBar', ['', browser.Keys.ENTER])
-            .waitForElementPresent('@errorMessage')
-            .expect.element('@errorMessage').text.to.equal('There was a problem fetching the weather!')
+        search(weatherPage, '', '@errorMessage',  'There was a problem fetching the weather!')
     },
     'Search for bad zip': browser => {
-        weatherPage
-            .setValue('@searchBar', ['123456789', browser.Keys.ENTER])
-            .waitForElementPresent('@errorMessage')
-            .expect.element('@errorMessage').text.to.equal('There was a problem fetching the weather!')
+        search(weatherPage, '123456789', '@errorMessage',  'There was a problem fetching the weather!')
     },
     // 'Search again': browser => {
     //     weatherPage

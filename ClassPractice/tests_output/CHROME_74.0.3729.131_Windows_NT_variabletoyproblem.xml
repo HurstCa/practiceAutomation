@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="2">
+            tests="1">
 
   <testsuite name="variabletoyproblem"
     errors="0" failures="0" hostname="" id="" package="variabletoyproblem" skipped="0"
-    tests="2" time="3.569" timestamp="">
+    tests="1" time="1.821" timestamp="">
   
-    <testcase name="Selectors" classname="variabletoyproblem" time="1.879" assertions="2">
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Test data" classname="variabletoyproblem" time="1.690" assertions="5">
-
-    
-
-    
-
-    
+    <testcase name="Selectors" classname="variabletoyproblem" time="1.821" assertions="2">
 
     
 

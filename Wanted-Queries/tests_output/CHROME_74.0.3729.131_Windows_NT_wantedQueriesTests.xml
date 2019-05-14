@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="7">
+
+  <testsuite name="wantedQueriesTests"
+    errors="0" failures="0" hostname="" id="" package="wantedQueriesTests" skipped="0"
+    tests="7" time="12.42" timestamp="">
+  
+    <testcase name="Warrant ID invalid" classname="wantedQueriesTests" time="2.568" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Warrant ID min" classname="wantedQueriesTests" time="1.497" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Warrant ID max" classname="wantedQueriesTests" time="1.503" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="reason for cancellation min" classname="wantedQueriesTests" time="1.506" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="reason for cancellation max" classname="wantedQueriesTests" time="2.224" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Date of Cancellation min" classname="wantedQueriesTests" time="1.598" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Date of Cancellation max" classname="wantedQueriesTests" time="1.523" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
