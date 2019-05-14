@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="13"
+            tests="1">
+
+  <testsuite name="loanWizard"
+    errors="0" failures="13" hostname="" id="" package="loanWizard" skipped="0"
+    tests="1" time="58.14" timestamp="">
+  
+    <testcase name="Test the form" classname="loanWizard" time="58.14" assertions="209">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;//p[2]&gt; contains text: &#34;Steve&#34; in 1000 ms. - expected [0;32m&#34;Steve&#34;[0m but got: [0;31m&#34;Expect to hear from our corporate lending offices shortly at aj@devmounta.in. We are looping in Stella for this cash purchase to expedite the process for you!&#34;[0m">    at test.results.forEach.result (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:73:32)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Test the form.testData.forEach.test (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:72:26)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Test the form (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:33:18)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;//p[2]&gt; contains text: &#34;Steve&#34; in 1000 ms. - expected [0;32m&#34;Steve&#34;[0m but got: [0;31m&#34;Expect to hear from our corporate lending offices shortly at aj@devmounta.in. We are looping in Stella for this cash purchase to expedite the process for you! Melissa from our wealth management team is also available at melissa@homeloanwizard.net to assist you in any way necessary.&#34;[0m">    at test.results.forEach.result (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:73:32)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Test the form.testData.forEach.test (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:72:26)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Test the form (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:33:18)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;//p[2]&gt; contains text: &#34;Steve&#34; in 1000 ms. - expected [0;32m&#34;Steve&#34;[0m but got: [0;31m&#34;Expect to hear from our corporate lending offices shortly at aj@devmounta.in. We are looping in Stella for this cash purchase to expedite the process for you!&#34;[0m">    at test.results.forEach.result (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:73:32)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Test the form.testData.forEach.test (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:72:26)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Test the form (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:33:18)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;//p[2]&gt; contains text: &#34;Steve&#34; in 1000 ms. - expected [0;32m&#34;Steve&#34;[0m but got: [0;31m&#34;Expect to hear from our corporate lending offices shortly at aj@devmounta.in. We are looping in Stella for this cash purchase to expedite the process for you! Melissa from our wealth management team is also available at melissa@homeloanwizard.net to assist you in any way necessary.&#34;[0m">    at test.results.forEach.result (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:73:32)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Test the form.testData.forEach.test (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:72:26)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Test the form (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:33:18)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;//p[2]&gt; contains text: &#34;Jan&#34; in 1000 ms. - expected [0;32m&#34;Jan&#34;[0m but got: [0;31m&#34;Expect to hear from our corporate lending offices shortly at aj@devmounta.in. We are looping in Stella for this cash purchase to expedite the process for you!&#34;[0m">    at test.results.forEach.result (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:73:32)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Test the form.testData.forEach.test (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:72:26)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Test the form (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:33:18)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;//p[2]&gt; contains text: &#34;Jan&#34; in 1000 ms. - expected [0;32m&#34;Jan&#34;[0m but got: [0;31m&#34;Expect to hear from our corporate lending offices shortly at aj@devmounta.in. We are looping in Stella for this cash purchase to expedite the process for you! Melissa from our wealth management team is also available at melissa@homeloanwizard.net to assist you in any way necessary.&#34;[0m">    at test.results.forEach.result (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:73:32)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Test the form.testData.forEach.test (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:72:26)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Test the form (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:33:18)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;//p[2]&gt; contains text: &#34;Jan&#34; in 1000 ms. - expected [0;32m&#34;Jan&#34;[0m but got: [0;31m&#34;Expect to hear from our corporate lending offices shortly at aj@devmounta.in. We are looping in Stella for this cash purchase to expedite the process for you!&#34;[0m">    at test.results.forEach.result (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:73:32)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Test the form.testData.forEach.test (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:72:26)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Test the form (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:33:18)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;//p[2]&gt; contains text: &#34;Jan&#34; in 1000 ms. - expected [0;32m&#34;Jan&#34;[0m but got: [0;31m&#34;Expect to hear from our corporate lending offices shortly at aj@devmounta.in. We are looping in Stella for this cash purchase to expedite the process for you! Melissa from our wealth management team is also available at melissa@homeloanwizard.net to assist you in any way necessary.&#34;[0m">    at test.results.forEach.result (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:73:32)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Test the form.testData.forEach.test (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:72:26)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Test the form (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:33:18)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;//p[2]&gt; contains text: &#34;Jan&#34; in 1000 ms. - expected [0;32m&#34;Jan&#34;[0m but got: [0;31m&#34;Expect to hear from our corporate lending offices shortly at aj@devmounta.in. We are looping in Stella for this cash purchase to expedite the process for you! Melissa from our wealth management team is also available at melissa@homeloanwizard.net to assist you in any way necessary.&#34;[0m">    at test.results.forEach.result (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:73:32)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Test the form.testData.forEach.test (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:72:26)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Test the form (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:33:18)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;//p[2]&gt; contains text: &#34;Mike&#34; in 1000 ms. - expected [0;32m&#34;Mike&#34;[0m but got: [0;31m&#34;Expect to hear from our corporate lending offices shortly at aj@devmounta.in. We are looping in Stella for this cash purchase to expedite the process for you!&#34;[0m">    at test.results.forEach.result (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:73:32)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Test the form.testData.forEach.test (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:72:26)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Test the form (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:33:18)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;//p[2]&gt; contains text: &#34;Mike&#34; in 1000 ms. - expected [0;32m&#34;Mike&#34;[0m but got: [0;31m&#34;Expect to hear from our corporate lending offices shortly at aj@devmounta.in. We are looping in Stella for this cash purchase to expedite the process for you! Melissa from our wealth management team is also available at melissa@homeloanwizard.net to assist you in any way necessary.&#34;[0m">    at test.results.forEach.result (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:73:32)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Test the form.testData.forEach.test (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:72:26)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Test the form (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:33:18)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;//p[2]&gt; contains text: &#34;Mike&#34; in 1000 ms. - expected [0;32m&#34;Mike&#34;[0m but got: [0;31m&#34;Expect to hear from our corporate lending offices shortly at aj@devmounta.in. We are looping in Stella for this cash purchase to expedite the process for you!&#34;[0m">    at test.results.forEach.result (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:73:32)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Test the form.testData.forEach.test (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:72:26)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Test the form (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:33:18)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;//p[2]&gt; contains text: &#34;Mike&#34; in 1000 ms. - expected [0;32m&#34;Mike&#34;[0m but got: [0;31m&#34;Expect to hear from our corporate lending offices shortly at aj@devmounta.in. We are looping in Stella for this cash purchase to expedite the process for you! Melissa from our wealth management team is also available at melissa@homeloanwizard.net to assist you in any way necessary.&#34;[0m">    at test.results.forEach.result (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:73:32)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Test the form.testData.forEach.test (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:72:26)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Test the form (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:33:18)</failure>
+
+    
+
+    
+
+    <failure message="    at test.results.forEach.result (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:73:32)">    at Array.forEach (&lt;anonymous&gt;)
+    at Test the form.testData.forEach.test (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:72:26)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Test the form (C:\Users\Owner\DevMtn\practiceAutomation\ClassPractice\tests\loanWizard.js:33:18)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

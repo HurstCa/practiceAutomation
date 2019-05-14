@@ -1,28 +1,36 @@
-var search = (browser, value, selector, city) => {
-    browser
-    .setValue('@searchBar', value)
+var search = (browser, value) => {
+    weatherPage.navigate()
+    .setValue('@searchBar', value.search)
     .click ('.enter-location__submit')
-    .waitForElementPresent(selector)
-    .expect.element(selector).text.to.equal(city)
+    .waitForElementPresent(value.selector)
+    .expect.element(value.selector).text.to.equal(value.result)
 }
+
+var myData = [
+    {search: 'San Diego', result: 'San Diego', selector: '@resultCity'},
+    {search: '95820', result: 'Sacramento', selector: '@resultCity'},
+    {search: '',  result: 'There was a problem fetching the weather!', selector: '@errorMessage'},
+    {serch: '123456789',  result: 'There was a problem fetching the weather!', selector: '@errorMessage'}
+]
+
 var weatherPage
 module.exports = {
     beforeEach: browser => {
         weatherPage = browser.page.weatherman()
         weatherPage.navigate()
     },
-    'Search for city': browser => {
-       search(weatherPage, 'San Diego', '@resultCity', 'San Diego')
-    },
-    'Search for zip': browser => {
-        search(weatherPage, '95820', '@resultCity', 'Sacramento')
-    },
-    'Search for blank': browser => {
-        search(weatherPage, '', '@errorMessage',  'There was a problem fetching the weather!')
-    },
-    'Search for bad zip': browser => {
-        search(weatherPage, '123456789', '@errorMessage',  'There was a problem fetching the weather!')
-    },
+    // 'Search for city': browser => {
+    //     search(weatherPage, myData[0])
+    // },
+    // 'Search for zip': browser => {
+    //     search(weatherPage, myData[1])
+    // },
+    // 'Search for blank': browser => {
+    //     search(weatherPage, myData[2])
+    // },
+    // 'Search for bad zip': browser => {
+    //     search(weatherPage, myData[3])
+    // },
     // 'Search again': browser => {
     //     weatherPage
     //         .setValue('@searchBar', '95820')
@@ -38,5 +46,10 @@ module.exports = {
     //         .waitForElementPresent('@errorMessage')
     //         .click('@tryAgainButton')
     //         .expect.element('@searchBar').to.be.visible.before(5000)
-    // }
+    // },
+    'new test': browser => {
+        myData.forEach(test=>{
+            search(weatherPage, test)
+        })
+    }
 }

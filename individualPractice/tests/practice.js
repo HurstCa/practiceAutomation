@@ -13,7 +13,9 @@ module.exports = {
             .waitForElementPresent('.TextInput-label')
             .click('.TextInput-label')
             .waitForElementPresent('input[type="text"]')
-            .setValue('input[type="text"]', '.TextInput-fragment')
+            .getText('.TextInput-fragment', function(result){
+               console.log(result.value)
+            })
             .pause(10000)
     }
 }
