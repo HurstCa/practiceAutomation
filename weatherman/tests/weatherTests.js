@@ -1,11 +1,3 @@
-var search = (browser, value) => {
-    weatherPage.navigate()
-    .setValue('@searchBar', value.search)
-    .click ('.enter-location__submit')
-    .waitForElementPresent(value.selector)
-    .expect.element(value.selector).text.to.equal(value.result)
-}
-
 var myData = [
     {search: 'San Diego', result: 'San Diego', selector: '@resultCity'},
     {search: '95820', result: 'Sacramento', selector: '@resultCity'},
@@ -49,7 +41,8 @@ module.exports = {
     // },
     'new test': browser => {
         myData.forEach(test=>{
-            search(weatherPage, test)
+            weatherPage
+            .search(test)
         })
     }
 }
